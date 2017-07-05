@@ -44,7 +44,6 @@ gulp.task('push', function(){
     if (err) throw err;
   });
 });
-
 //minified
 gulp.task('scripts', function (cb) {
   pump([
@@ -118,5 +117,3 @@ gulp.task('tdd', function (done) {
 });
 
 gulp.task('min', ['scripts', 'scripts2','scripts3', 'scripts4']);
-
-gulp.task('deploy', ['commit', 'push']);
