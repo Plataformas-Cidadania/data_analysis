@@ -12,7 +12,6 @@ Em coerência com os propósitos do Mapa, a sua equipe de análise de dados disp
 **locale:**
 _LC_COLLATE=Portuguese_Brazil.1252_, _LC_CTYPE=Portuguese_Brazil.1252_, _LC_MONETARY=Portuguese_Brazil.1252_, _LC_NUMERIC=C_ and _LC_TIME=Portuguese_Brazil.1252_
 
-
 **attached base packages:** 
 
 * tcltk 
@@ -23,7 +22,6 @@ _LC_COLLATE=Portuguese_Brazil.1252_, _LC_CTYPE=Portuguese_Brazil.1252_, _LC_MONE
 * datasets 
 * methods 
 * base 
-
 
 **other attached packages:** 
 
@@ -60,7 +58,6 @@ _LC_COLLATE=Portuguese_Brazil.1252_, _LC_CTYPE=Portuguese_Brazil.1252_, _LC_MONE
 * RevoScaleR(v.9.0.1) 
 * lattice(v.0.20-34) 
 * rpart(v.4.1-10) 
-
 
 **loaded via a namespace (and not attached):** 
 
