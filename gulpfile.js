@@ -33,9 +33,6 @@ gulp.task('commit', function(){
   return gulp.src('./*')
     .pipe(git.add())
     .pipe(git.commit(args.env))
-    .pipe(git.push('origin', 'master', function (err) {
-  //if (err) ... 
-}));
 });
 
 gulp.task('pull', function(){
@@ -122,3 +119,4 @@ gulp.task('tdd', function (done) {
 });
 
 gulp.task('min', ['scripts', 'scripts2','scripts3', 'scripts4']);
+gulp.task('deploy', ['commit', 'push']);
