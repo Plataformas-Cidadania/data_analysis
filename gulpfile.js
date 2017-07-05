@@ -21,13 +21,6 @@ var editarJsFiles = 'dev/js/editar/**/*.js',
     cssFiles = 'css/**/*.css',
     cssDest = 'css/dist';
 
-gulp.task('teste', function (cb) {
-var t = "::::"+args.env
-  pump([
-    gulp.src(editarJsFiles),
-     console.log(t)
-  ], cb);
-});
 
 gulp.task('commit', function(){
   return gulp.src('./*')
@@ -119,4 +112,4 @@ gulp.task('tdd', function (done) {
 });
 
 gulp.task('min', ['scripts', 'scripts2','scripts3', 'scripts4']);
-gulp.task('deploy', ['commit', 'push']);
+gulp.task('deploy', ['pull','commit', 'push']);
