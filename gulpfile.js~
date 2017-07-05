@@ -30,7 +30,10 @@ gulp.task('teste', function (cb) {
 gulp.task('commit', function(){
   return gulp.src('./*')
     .pipe(git.add())
-    .pipe(git.commit(args.env));
+    .pipe(git.commit(args.env))
+    .pipe(git.push('origin', 'master', function (err) {
+    if (err) throw err;
+  }));
 });
 
 gulp.task('pull', function(){

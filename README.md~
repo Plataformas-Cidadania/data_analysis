@@ -59,7 +59,6 @@ _LC_COLLATE=Portuguese_Brazil.1252_, _LC_CTYPE=Portuguese_Brazil.1252_, _LC_MONE
 * lattice(v.0.20-34) 
 * rpart(v.4.1-10) 
 
-
 **loaded via a namespace (and not attached):** 
 
 * Rcpp(v.0.12.9) 
