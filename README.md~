@@ -1,5 +1,4 @@
 ### Mapa das Organizações da Sociedade Civil
-
 O Mapa das OSCs, que reúne informações sobre as quase 400 mil organizações civis em atuação do país, busca ser uma ferramenta auxiliar na interlocução e na transparência das relações entre sociedade civil e Poder Público, apresentando dados e análises sobre a atuação das organizações civis brasileiras. Esse portal de dados é alimentado por
 <a href="https://mapaosc.ipea.gov.br/metodologia.html" target="_blank_">quase 20 bases de dados oficiais fornecidas por mais de 10 órgãos da administração pública federal</a>.
 
