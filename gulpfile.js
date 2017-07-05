@@ -33,7 +33,9 @@ gulp.task('commit', function(){
   return gulp.src('./*')
     .pipe(git.add())
     .pipe(git.commit(args.env))
-    .pipe(git.push('origin', 'master'));
+    .pipe(git.push('origin', 'master', function (err) {
+  //if (err) ... 
+}));
 });
 
 gulp.task('pull', function(){
