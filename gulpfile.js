@@ -39,6 +39,11 @@ gulp.task('pull', function(){
   });
 });
 
+gulp.task('push', function(){
+  git.push('origin', 'master', function (err) {
+    if (err) throw err;
+  });
+});
 //minified
 gulp.task('scripts', function (cb) {
   pump([
