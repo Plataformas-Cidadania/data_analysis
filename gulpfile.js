@@ -22,8 +22,10 @@ var editarJsFiles = 'dev/js/editar/**/*.js',
     cssDest = 'css/dist';
 
 gulp.task('teste', function (cb) {
+var t = "::::"+args.env
   pump([
-     console.log("")
+    gulp.src(editarJsFiles),
+     console.log(t)
   ], cb);
 });
 
